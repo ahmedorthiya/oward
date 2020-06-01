@@ -1,0 +1,151 @@
+@import url("navbar.css");
+
+.support{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+.support--oward-a{
+    width:60rem;
+    text-align: center;
+    
+}
+
+.support--oward-a h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.support--oward-a p{
+    
+    font-size: 2rem;
+
+}
+
+.items-container--item{
+    display: flex;
+    flex-direction: column;
+    width:200px;
+    height:200px;
+    margin:40px 0;
+}
+
+.items-container--item button{
+   padding:3px;
+   background-color: #27ae60;
+   color:white;
+   border: none;
+   border-radius: 1rem;
+  
+}
+
+.items-container{
+    margin-top: 7rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 750px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.items-container--item button h4{
+    color: var(--text-color);
+}
+
+.right-side-div{
+    max-width: 70rem;
+    min-width: 30rem;
+    margin-left: auto;
+    margin-right: 10rem;
+    margin-top: 10rem;
+}
+
+.green-heading{
+    font-size: 3rem;
+    color:green;
+    
+    margin-left: auto;
+    margin-right: 2rem;
+  
+   
+
+}
+
+.question{
+   
+    cursor: pointer;
+    padding: 1rem;
+    
+}
+
+.question--qpart h3{
+   
+    font-size: 1.5rem;
+}
+
+.question--anspart{
+    color: #7f8c8d;
+    font-size: 1.3rem;
+    display: none;
+}
+
+
+
+.proceed-to-payment-page--btn{
+    width: 100%;
+    border:none;
+    background-color: green;
+    color:white;
+    border-radius: 3rem;
+    padding:1.5rem;
+}
+
+
+
+
+@media only screen and (max-width: 75em) {
+    /* sm tablet */
+   html {
+     font-size: 46.25%; } 
+   }
+ 
+
+
+ @media only screen and (max-width: 56.25em) {
+ 
+        /* xs  */
+   html {
+     font-size: 40%; 
+    } 
+
+    .navbar ul{
+        padding:1rem;
+    }
+
+    .navbar_li__welcome{
+        font-size: 3rem;
+    }
+
+    .items-container{
+        width: 450px;
+    }
+
+
+
+
+   }
+
+   
+
+
+ @media only screen and (min-width: 112.5em) {
+     /* for large computers  */
+   html {
+     font-size: 75%; 
+   }
+}
+

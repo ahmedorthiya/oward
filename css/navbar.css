@@ -1,0 +1,48 @@
+:root{
+    --text-color:#f1c40f;
+    --main-family:'Open Sans', sans-serif;
+
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: var(--main-family);
+}
+
+
+
+
+.navbar{
+    background-color: #34495e;
+    position:fixed;
+    width: 100%;
+    z-index: 999;
+    padding:1rem 0;
+ 
+  
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    padding:0 4rem .3rem 4rem;
+ 
+}
+.navbar_li{
+    margin-left: auto;
+ 
+}
+
+.navbar_li__welcome{
+    color:var(--text-color);
+    margin-left: auto;
+    font-size: 4rem;
+    text-decoration: none;
+}

@@ -1,0 +1,38 @@
+@import url('navbar.css');
+
+
+.notification-header{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 6rem;
+}
+
+.notification-header--oward-a{
+    width:40rem;
+    margin-left: 4rem;
+   
+    
+}
+
+.notification-header--oward-a h1{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color:green;
+    text-align: center;
+
+   
+}
+
+.notification-header--oward-a p{
+   
+    text-align: start;
+    margin-top: 4rem;
+}
+
+.ft-17{
+    font-weight: 500;
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
