@@ -1,2 +1,2 @@
 I have removed Payment method page because client in his file write he want to discuss this page with you
-When you want to publish this website then uncomment the footer part where links is present then footer will automatically works fine when you upload this website 
+When you want to publish this website then uncomment the footer part where links is present then footer will automatically works fine when you upload this website. I have move the question div to the left but I don't like this if you agree with me , then you can remove ml-5 from .question-holder  and add  .text-center with .content 
