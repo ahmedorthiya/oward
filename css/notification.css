@@ -1,38 +1,63 @@
-@import url('navbar.css');
+:root{
+    --text-color:#f1c40f;
+    --main-family:'Open Sans', sans-serif;
 
-
-.notification-header{
-    display:flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    margin-top: 6rem;
 }
 
-.notification-header--oward-a{
-    width:40rem;
-    margin-left: 4rem;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar-bg{
+    background-color: #34495e;
+    width:100%;
    
+
+}
+
+.navbar-welcome-text{
+    margin-left: auto;
+    margin-right: 2px;
+    display: block;
+    color:var(--text-color);
+}
+
+.support--oward-a{
+    width: 600px;
+}
+
+@media only screen and (max-width: 75em) {
+    /* sm tablet */
+  
+     .navbar-welcome-text{
+         font-size: 15px;
+     }
+  
+  }
     
-}
-
-.notification-header--oward-a h1{
-    font-size: 2.5rem;
-    font-weight: 900;
-    color:green;
-    text-align: center;
-
+     
    
-}
-
-.notification-header--oward-a p{
+  
+  
+   @media only screen and (max-width: 56.25em) {
    
-    text-align: start;
-    margin-top: 4rem;
-}
-
-.ft-17{
-    font-weight: 500;
-    font-size: 1.7rem;
-    margin-bottom: 1rem;
-}
+          /* xs  */
+    
+          .navbar-welcome-text{
+              display: none;
+          }
+        
+  
+         
+          .green-heading{
+              font-size: 28px;
+              margin:0 auto;
+          }
+         
+      
+   
+  
+  
+     }
