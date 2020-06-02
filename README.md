@@ -1,0 +1,1 @@
+I have removed Payment method page because client in his file write he want to discuss this page with you
