@@ -32,10 +32,12 @@
     width:200px; 
     height:170px;
 }
+.item-holder{
+  width:200px;
+}
 
 .info-price-btn{
-    margin-left: auto;
-    margin-right: auto;
+   
     width:200px;
      padding:0 3px;
    background-color: #27ae60;
